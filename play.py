@@ -13,6 +13,7 @@ os.environ["TF_CPP_MIN_LOG_LEVEL"] = "3"
 
 
 def splash():
+    print("Hi!!!")
     print("0) New Game\n1) Load Game\n")
     choice = get_num_options(2)
 
